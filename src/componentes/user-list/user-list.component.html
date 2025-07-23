@@ -1,0 +1,12 @@
+<h2>Lista de Usuarios</h2>
+
+<ul>
+  <li *ngFor="let user of users"
+     [ngClass]="{
+        'user-active': user.active,
+        'user-inactive': !user.active
+      }">
+    {{ user.name }}
+  </li>
+</ul>
+

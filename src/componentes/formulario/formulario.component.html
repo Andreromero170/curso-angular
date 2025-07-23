@@ -1,0 +1,8 @@
+
+<form (ngSubmit)="enviarFormulario()">
+  <input type="text" placeholder="Tu nombre" [(ngModel)]="nombre" name="nombre">
+  <button type="submit">Enviar</button>
+</form>
+
+<!-- Esto solo se muestra si la variable enviado es true -->
+<p *ngIf="enviado">¡Formulario enviado correctamente! {{nombre}}</p>

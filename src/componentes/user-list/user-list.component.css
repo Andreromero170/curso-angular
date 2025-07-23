@@ -1,0 +1,11 @@
+.user-active {
+  color: white;
+  background-color: green;
+  padding: 5px;
+}
+
+.user-inactive {
+  color: #a10303;
+  background-color: #eee;
+  padding: 5px;
+}

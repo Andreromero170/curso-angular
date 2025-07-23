@@ -1,0 +1,39 @@
+
+<!-- 
+<input [(ngModel)]="nombre">
+<h1 *ngIf="estado_boton">Hola {{ nombre }}</h1>
+<button (click)="mostrarNombre()">Haz clic</button> --> 
+
+<!-- forma de recorrer una lista -->
+
+<!-- 
+<ul>
+  <li *ngFor="let producto of productos">
+    {{ producto }}
+  </li>
+</ul>
+-->
+<!-- forma de recorrer una lista 2 -->
+<!-- <ul>
+  @for (producto of productos; track producto) {
+  <li>{{ $index + 1 }} - {{ producto }}</li>
+  }
+</ul>
+
+
+   <ul>
+      <li *ngFor="let producto of productos2;">
+        {{ producto.id }} - {{ producto.nombre }} → ${{ producto.precio }}
+      </li>
+    </ul>
+
+      <ul>
+      @for (producto of productos2; track producto.id) {
+        <li>
+          {{ $index + 1 }} - {{ producto.nombre }} → ${{ producto.precio }}
+        </li>
+      }
+    </ul>  -->
+
+
+    <router-outlet></router-outlet>

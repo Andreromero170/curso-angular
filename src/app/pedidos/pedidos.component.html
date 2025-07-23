@@ -1,0 +1,7 @@
+<div [ngSwitch]="estadoPedido">
+  <p *ngSwitchCase="'pendiente'">Tu pedido está pendiente.</p>
+  <p *ngSwitchCase="'enviado'">¡Tu pedido ha sido enviado!</p>
+  <p *ngSwitchCase="'entregado'">Tu pedido ha sido entregado.</p>
+  <p *ngSwitchDefault>Estado desconocido.</p>
+</div>
+
